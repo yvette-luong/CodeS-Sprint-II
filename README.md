@@ -21,7 +21,7 @@
 _For l = [1, 2, 3, 4, 5], the output should be_
 _reverseLinkedList(l) = [5, 4, 3, 2, 1]._
 
-### **_2.CheckBlanagrams_**
+### **_2. CheckBlanagrams_**
 
 **Problem**
 
@@ -39,8 +39,7 @@ checkBlanagrams(word1, word2) = true.
 
 - Since a word is an anagram of itself (a so-called trivial anagram), we are not obliged to rearrange letters. Only the substitution of a single letter is required for a word to be a blanagram, and here 't' is changed to 'p'.
 
-- For word1 = "aba" and word2 = "bab", the output should be
-checkBlanagrams(word1, word2) = true.
+- For word1 = "aba" and word2 = "bab", the output should be checkBlanagrams(word1, word2) = true.
 
 - You can take the first letter 'a' of word1 and change it to 'b', obtaining the word "bba", which is an anagram of word2 = "bab". It is also possible to change the first letter 'b' of word2 to 'a' and obtain "aab", which is an anagram of word1 = "aba".
 
@@ -49,7 +48,7 @@ checkBlanagrams(word1, word2) = false.
 
 - These two words are anagrams of each other, but no letter substitution was made (the trivial substitution of a letter with itself shouldn't be considered), so they are not blanagrams.
 
-### **_3.FindValueSortedShiftedArray_**
+### **_3. FindValueSortedShiftedArray_**
 
 **Problem**
 
